@@ -1,5 +1,6 @@
 from sqlalchemy import Column, Integer, String
 from database import Base
+# from uuid import uuid4
 
 class Item(Base):
     __tablename__ = "data"
